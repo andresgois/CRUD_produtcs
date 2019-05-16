@@ -33,7 +33,5 @@
 			$statement->bindParam(':id', $id);
 			return $statement->execute();	
 		}
-
-
 	}
  ?>
